@@ -5,8 +5,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
+    "dev": "node init && vite",
+    "build": "node init && vue-tsc --noEmit && vite build",
     "buildjs": "vite build",
     "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore --fix resources/js",
     "lint:check": "eslint --ext .js,.ts,.vue --ignore-path .gitignore resources/js",
